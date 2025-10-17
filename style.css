@@ -30,7 +30,7 @@ nav {
   z-index: 10;
   background-color: rgba(0, 0, 0, 0.7);
   -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
 }
 nav .logo {
   font-weight: bold;
@@ -45,7 +45,7 @@ nav #links a {
   height: 100vh;
   width: 100vw;
   margin-bottom: 10px;
-  background-image: url(/images/ChatGPT\ Image\ Oct\ 17\,\ 2025\,\ 12_59_43\ AM.png);
+  background-image: url(images/ChatGPT\ Image\ Oct\ 17\,\ 2025\,\ 12_59_43\ AM.png);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -112,7 +112,7 @@ nav #links a {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   display: block;
 }
 
@@ -134,7 +134,7 @@ nav #links a {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   display: block;
   transition: transform 0.5s ease;
 }
@@ -218,19 +218,19 @@ main section:hover {
   cursor: pointer;
 }
 main section:nth-child(1) {
-  background-image: url(/images/blackhoddie.jpeg);
+  background-image: url(images/blackhoddie.jpeg);
 }
 main section:nth-child(2) {
-  background-image: url(/images/shirts.jpeg);
+  background-image: url(images/shirts.jpeg);
 }
 main section:nth-child(3) {
-  background-image: url(/images/sweater.jpeg);
+  background-image: url(images/sweater.jpeg);
 }
 main section:nth-child(4) {
-  background-image: url(/images/tshirt.jpeg);
+  background-image: url(images/tshirt.jpeg);
 }
 main section:nth-child(5) {
-  background-image: url(/images/hoddie.jpeg);
+  background-image: url(images/hoddie.jpeg);
 }
 
 section {
@@ -267,7 +267,7 @@ section:hover {
   max-width: 100%;
   height: 700px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   display: block;
   transition: transform 0.3s ease;
   margin-bottom: 5px;
@@ -315,7 +315,7 @@ section:hover {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   cursor: pointer;
 }
 
@@ -388,7 +388,7 @@ footer {
   gap: 5px;
 }
 
-.footer-column input[type="email"] {
+.footer-column input[type=email] {
   padding: 8px;
   border: none;
   border-radius: 3px;
@@ -425,4 +425,4 @@ footer {
 
 .footer-bottom a:hover {
   color: #ff7e5f;
-}
+}/*# sourceMappingURL=style.css.map */
